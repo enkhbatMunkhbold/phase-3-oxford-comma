@@ -1,3 +1,5 @@
+require "pry"
+
 def oxford_comma(array)
   str = ''
   if array.length == 1
@@ -12,3 +14,5 @@ def oxford_comma(array)
   end
   str
 end
+
+pending.pry
